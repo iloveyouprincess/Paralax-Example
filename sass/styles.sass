@@ -1,0 +1,57 @@
+// Import sass
+@import "_global.sass"
+// End import sass
+
+.content
+	article
+		padding: 6.25em 0
+		max-width: 40rem
+		margin: 0 auto
+		text-align: center
+
+//Paralax
+
+.bird-box
+	position: relative
+	height: 37.50rem
+	background:
+		image: url(../images/bird-bg.jpg)
+		size: auto 37.50rem
+		position: top center
+		attachment: fixed
+	overflow: hidden
+
+.logo
+	height: 6.25rem
+	width: 100%
+	background:
+		image: url(../images/black-bird-logo.svg)
+		position: center
+		repeat: no-repeat
+	position: absolute
+	top: 50%
+	margin: -3.12rem 0 0
+
+.fore-bird
+	width: 60rem
+	height: 45.81rem
+	background: 
+		//color: transparentize(pink, .4)
+		image: url(../images/fore-bird.png)
+		position: right bottom
+		repeat: no-repeat
+	position: absolute
+	left: 50%
+	margin-left: -30rem
+	top: 23.75rem
+
+.back-bird
+	width: 60rem
+	height: 18.62rem
+	background:
+		image: url(../images/back-bird.png)
+		repeat: no-repeat
+		position: top left
+	position: absolute
+	left: 50%
+	margin-left: -30rem
